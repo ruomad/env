@@ -1,0 +1,35 @@
+# For more information, see: http://docs.haskellstack.org/en/stable/yaml_configuration.html
+
+# Local bin path
+local-bin-path: /usr/local/bin
+
+# Specifies the GHC version and set of packages available (e.g., lts-3.5, nightly-2015-09-21, ghc-7.10.2)
+resolver: snapshot.yaml
+
+# Local packages, usually specified by relative directory name
+packages:
+  - .
+
+# Packages to be pulled from upstream that are not in the resolver (e.g., acme-missiles-0.3)
+# You have also to add here packages when you set non-default flag values
+extra-deps:
+
+# Override default flag values for local packages and extra-deps
+flags:
+  fvh:
+    use-vector: true
+    use-sqlite: true
+    # Only changes executables names, set executable-profiling as well
+    profiling:  false
+
+# Extra package databases containing global packages
+extra-package-dbs: []
+
+build:
+  # Haddock options
+  haddock: true
+  haddock-deps: false
+  library-profiling: false
+
+  # Also set the "profiling" flag to ensure proper executables names
+  executable-profiling: false

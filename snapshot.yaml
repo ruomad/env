@@ -1,0 +1,16 @@
+# Custom snapshot
+
+resolver: nightly-2022-11-24
+
+name: nightly-2022-11-24
+
+flags:
+    hmatrix:
+      openblas: true
+      disable-default-paths: true
+      
+packages:
+
+drop-packages:
+  # drop ghc shipped packages when their version is different from
+  # resolver's to avoid rebuilding them (and pruning the others)
