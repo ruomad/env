@@ -44,4 +44,4 @@ ghc-options:  -O3 -fexcess-precision -optc-O3
 
 executables:
   test:
-    main:	main.hs
+    main:	Main.hs
