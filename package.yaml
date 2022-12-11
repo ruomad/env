@@ -42,5 +42,6 @@ dependencies:
 
 ghc-options:  -O3 -fexcess-precision -optc-O3
 
-test:
-  main:	       main.hs
+executables:
+  test:
+    main:	main.hs
