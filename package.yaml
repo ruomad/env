@@ -3,7 +3,6 @@ version:         0.1.0
 synopsis:        CI test
 description:     Dummy project to test CI setup and cache.
 license:         BSD3
-license-file:    LICENSE
 author:          Bruno Damour <bruno@ruomad.net>
 maintainer:      Bruno Damour <bruno@ruomad.net>
 copyright:       (c) 2013-2022 Bruno Damour
