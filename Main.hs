@@ -2,4 +2,4 @@
 module Main where
 
 main = do
-  putStrLn "Test 2"
+  putStrLn "Test 0"
