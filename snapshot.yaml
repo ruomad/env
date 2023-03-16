@@ -8,9 +8,11 @@ flags:
     hmatrix:
       openblas: true
       disable-default-paths: true
-      
+
 packages:
+  - unix-compat-0.7
 
 drop-packages:
   # drop ghc shipped packages when their version is different from
   # resolver's to avoid rebuilding them (and pruning the others)
+  - unix-compat
