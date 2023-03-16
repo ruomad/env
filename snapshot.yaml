@@ -16,3 +16,9 @@ drop-packages:
   # drop ghc shipped packages when their version is different from
   # resolver's to avoid rebuilding them (and pruning the others)
   - unix-compat
+  - Cabal
+  - Cabal-syntax
+  - Win32
+  - directory
+  - process
+  - time
