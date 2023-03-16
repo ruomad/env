@@ -1,8 +1,8 @@
 # Custom snapshot
 
-resolver: nightly-2023-02-14
+resolver: nightly-2023-03-15
 
-name: nightly-2023-02-14
+name: nightly-2023-03-15
 
 flags:
     hmatrix:

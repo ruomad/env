@@ -1,5 +1,5 @@
 name:            env
-version:         0.1.0
+version:         0.1.1
 synopsis:        CI test
 description:     Dummy project to test CI setup and cache.
 license:         BSD3
