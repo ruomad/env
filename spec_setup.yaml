@@ -1,0 +1,5 @@
+setup-info:
+  ghc:
+    ubuntu-20.04:
+      9.6.1:
+        url: "https://downloads.haskell.org/~ghc/9.6.1/ghc-9.6.1-x86_64-ubuntu20_04-linux.tar.xz"
