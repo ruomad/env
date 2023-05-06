@@ -1,8 +1,7 @@
-setup-info:
-  ghc:
-    linux64:
-      9.6.1:
-        url: "https://downloads.haskell.org/~ghc/9.6.1/ghc-9.6.1-x86_64-ubuntu20_04-linux.tar.xz"
-        content-length: 208988976
-        sha1: 63f97846eb3d0bd97457429fbd27c7c021ddecea
-        sha256: 95cfd9d1144eb14a01b43474c2ebfe8a50373a8d8ea53ebac461d4fa4878e4ed
+ghc:
+  linux64:
+    9.6.1:
+      url: "https://downloads.haskell.org/~ghc/9.6.1/ghc-9.6.1-x86_64-ubuntu20_04-linux.tar.xz"
+      content-length: 208988976
+      sha1: 63f97846eb3d0bd97457429fbd27c7c021ddecea
+      sha256: 95cfd9d1144eb14a01b43474c2ebfe8a50373a8d8ea53ebac461d4fa4878e4ed
