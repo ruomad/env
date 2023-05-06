@@ -1,3 +1,13 @@
+sevenzexe-info:
+  url: "https://github.com/commercialhaskell/stackage-content/releases/download/7z-22.01/7z.exe"
+  content-length: 545280
+  sha256: 254cf6411d38903b2440819f7e0a847f0cfee7f8096cfad9e90fea62f42b0c23
+
+sevenzdll-info:
+  url: "https://github.com/commercialhaskell/stackage-content/releases/download/7z-22.01/7z.dll"
+  content-length: 1814016
+  sha256: 73578f14d50f747efa82527a503f1ad542f9db170e2901eddb54d6bce93fc00e
+
 ghc:
   linux64:
     9.4.5:
